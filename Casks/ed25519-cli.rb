@@ -4,7 +4,7 @@ cask "ed25519-cli" do
 
   url "https://github.com/passulo/ed25519-cli/releases/tag/v#{version}"
   name "ed25519-cli"
-  desc "Command Line Interface for using ed25519 EdEC Crypto"
+  desc "Command-Line Interface for using ed25519 EdEC Crypto"
   homepage "https://github.com/passulo/ed25519-cli/commits/main"
 
   app "ed25519"
