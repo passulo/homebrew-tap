@@ -1,0 +1,11 @@
+# Passulo Tap
+
+## How do I install these formulae?
+
+`brew install passulo/tap/<formula>`
+
+Or `brew tap passulo/tap` and then `brew install <formula>`.
+
+## Documentation
+
+`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
