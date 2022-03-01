@@ -9,7 +9,7 @@ class Ed25519Cli < Formula
   depends_on "sbt" => :build
 
   def install
-    system "mv", "ed25519-x86_64-apple-darwin", "ed25519" 
+    mv "ed25519-x86_64-apple-darwin", "ed25519"
     bin.install "ed25519"
   end
 
