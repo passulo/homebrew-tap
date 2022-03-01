@@ -6,6 +6,7 @@ class Ed25519Cli < Formula
   license "Apache-2.0"
 
   depends_on "openjdk@17" => :build
+  depends_on "graalvm-ce-java17" => :build
   depends_on "sbt" => :build
 
   def install
