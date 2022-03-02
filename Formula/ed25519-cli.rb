@@ -9,7 +9,7 @@ class Ed25519Cli < Formula
   depends_on "sbt" => :build
 
   def install
-    system "chmod", "+x", "ed25519-x86_64-apple-darwin"
+    chmod "+x", "ed25519-x86_64-apple-darwin"
     bin.install "ed25519-x86_64-apple-darwin" => "ed25519"
     output = Utils.safe_popen_read("#{bin}/ed25519", "generate-completion")
     (bash_completion/"ed25519").write output
